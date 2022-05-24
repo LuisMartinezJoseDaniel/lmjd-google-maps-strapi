@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "escuelas",
+  "info": {
+    "singularName": "escuela",
+    "pluralName": "escuelas",
+    "displayName": "Escuelas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "integer",
+      "required": false
+    },
+    "descripcion_tipo": {
+      "type": "string"
+    },
+    "latitud": {
+      "type": "float",
+      "required": true
+    },
+    "longitud": {
+      "type": "float",
+      "required": true
+    },
+    "nivel": {
+      "type": "string"
+    }
+  }
+}
